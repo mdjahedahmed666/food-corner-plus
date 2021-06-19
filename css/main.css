@@ -1,0 +1,174 @@
+body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: #e67e22;
+  content: "";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+h3 {
+  font-size: 120%;
+  margin-bottom: 15px;
+}
+.icon-color {
+  color: #e67e22;
+}
+/* Hero Section */
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), #000),
+    url(../images/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+/* Popular Food */
+.meals {
+  background-color: #485769;
+}
+.meals .showcase {
+  list-style-type: none;
+  width: 100%;
+}
+.meals .showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+.meal-img {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+.meal-img img {
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s opacity 0.5s;
+  opacity: 0.7;
+}
+.meal-img img:hover {
+  opacity: 1;
+  transform: scale(1.03);
+}
+/* Working css */
+.steps {
+  color: #e67e22;
+  border: 2px solid #e67e22;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px;
+  float: left;
+  font-size: 150%;
+  margin-right: 25px;
+}
+.app-screen {
+  width: 40%;
+  height: 500px;
+}
+/* Working Cities */
+.works {
+  background-color: #f4f4f4;
+}
+.img-box {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 15px;
+}
+/* Customer Review */
+.review {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), #000),
+    url(../images/review.jpg);
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+blockquote {
+  padding: 4%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+  margin-top: 70px;
+}
+blockquote::before {
+  position: absolute;
+  content: "\201C";
+  font-size: 500%;
+  display: block;
+  top: -5px;
+  left: -5px;
+}
+cite {
+  font-size: 90%;
+  margin-top: 40px;
+  display: block;
+}
+cite img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+/* Footer Css */
+footer {
+  background-color: #232f3e;
+  padding: 50px;
+  font-size: 80%;
+}
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+.social-nav {
+  list-style: none;
+  float: right;
+}
+.footer-nav li,
+.social-nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.footer-nav li:last-child,
+.social-nav li:last-child {
+  margin-right: 0px;
+}
+.footer-nav li a:link,
+.social-nav li a:link,
+.footer-nav li a:visited,
+.social-nav li a:visited {
+  text-decoration: none;
+  color: #fff;
+  border: 0;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: #e67e22;
+}
+.social-nav li a:hover,
+.social-nav li a:active {
+  color: #3b5998;
+}
+footer p {
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}
+/* Contact Form */
+#page-header {
+  height: 200px;
+  background: url(../images/hero-bg.jpg);
+  background-attachment: fixed;
+  background-position: 0 -360px;
+  border-bottom: 1px solid #eee;
+  padding-top: 50px;
+  color: #fff;
+}
